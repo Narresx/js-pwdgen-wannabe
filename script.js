@@ -30,4 +30,4 @@ console.log(pageElement);
 
 // Punto 5
 
-pageElement.innerHTML = `"La tua password è ${userName}${userSurname}${userFavoriteColor}21"`
+pageElement.innerHTML = `La tua password è ${userName}${userSurname}${userFavoriteColor}21`
