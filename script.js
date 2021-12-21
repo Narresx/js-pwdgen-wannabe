@@ -15,12 +15,12 @@ console.log(userName);
 
 // Punto 2
 
-const userSurname = prompt(`Qual'è il tuo cognome?`);
+const userSurname = prompt("Qual è il tuo cognome?");
 console.log(userSurname);
 
 // Punto 3
 
-const userFavoriteColor = prompt(`Qual'è il tuo colore preferito?`);
+const userFavoriteColor = prompt("Qual è il tuo colore preferito?");
 console.log(userFavoriteColor);
 
 // Punto 4
@@ -30,4 +30,4 @@ console.log(pageElement);
 
 // Punto 5
 
-pageElement.innerHTML = `La tua password è ${userName}${userSurname}${userFavoriteColor}21`
+pageElement.innerText = `La tua password è ${userName}${userSurname}${userFavoriteColor}21`
